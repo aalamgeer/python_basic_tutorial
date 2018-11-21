@@ -23,3 +23,12 @@ print(multiply_list_by_2)
 from functools import reduce 
 redunced_list = reduce(lambda x, y: x+y, alist)
 print(redunced_list)
+
+#Trick
+r = lambda q: q * 2
+s = lambda q: q * 3
+x = 2
+x = r(x) 
+x = s(x) 
+x = r(x) 
+print x 
