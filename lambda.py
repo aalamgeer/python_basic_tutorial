@@ -8,3 +8,7 @@ alist = [1,2,3,4,5,6,7,8,9,10,11]
 #Find the all odd value's list from alist
 filter_list = list(filter(lambda x:x%2 != 0, alist))
 print(filter_list)
+
+#Find even no. from list
+find_even = list(filter(lambda x: x%2 == 0, alist)) 
+print(find_even)
