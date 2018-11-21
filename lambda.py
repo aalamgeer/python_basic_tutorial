@@ -12,3 +12,9 @@ print(filter_list)
 #Find even no. from list
 find_even = list(filter(lambda x: x%2 == 0, alist)) 
 print(find_even)
+
+
+#map function->> map function takes two arguments first is function second is list
+#This used with lambda function. It change each element of given list and lambda defination.
+multiply_list_by_2 = list(map(lambda x: x*2, alist))
+print(multiply_list_by_2)
