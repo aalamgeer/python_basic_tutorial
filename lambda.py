@@ -19,12 +19,12 @@ print(find_even)
 multiply_list_by_2 = list(map(lambda x: x*2, alist))
 print(multiply_list_by_2)
 
-#Reduce function -> Used to redunce list item Or make sum of whole numeric list.
+#Reduce function -> Used to reduce list item Or make sum of whole numeric list.
 from functools import reduce 
 redunced_list = reduce(lambda x, y: x+y, alist)
 print(redunced_list)
 
-#Trick
+#Trick questins
 r = lambda q: q * 2
 s = lambda q: q * 3
 x = 2
