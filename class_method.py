@@ -15,7 +15,7 @@ class Employee:
 		
 	@classmethod
 	def change_leaves(cls, newleaves):  # classmethod can access only class variable, it can be access via object or class.
-		return cls.leaves = newleaves   # classmethod don't use self keyword(No object pass in it) it use cls
+		 cls.leaves = newleaves   # classmethod don't use self keyword(No object pass in it) it use cls
 										# classmethod can be used as alternative constructor
 aalam = Employee("AAlam","Singh",444)
 rohan = Employee("Rohan","Rana",555)
