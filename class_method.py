@@ -12,16 +12,16 @@ class Employee:
 		
 	def printdetails(self):
 		print(" The name is {}  Salary is  {} leaves is {} ".format(self.name, self.salary, self.leaves) )
-	
+		
+	@classmethod
+	def change_leaves(cls, newleaves):  # classmethod can access only class variable, it can be access via object or class.
+		return cls.leaves = newleaves   # classmethod don't use self keyword(No object pass in it) it use cls
+										# classmethod can be used as alternative constructor
 aalam = Employee("AAlam","Singh",444)
 rohan = Employee("Rohan","Rana",555)
 
-#print(aalam.no_leaves())
-#print(rohan.no_leaves())
+aalam.change_leaves(21)
 
-#print(rohan.__dict__) # To check instance variable of rohan instance
-#print(aalam.__dict__) # To check instance variable of Aalam instance
-
-#Employee.leaves = 20
-
-print(rohan.printdetails)
+print(aalam.leaves)
+print(rohan.leaves)
+print(Employee.leaves)
