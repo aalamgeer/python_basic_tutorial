@@ -10,10 +10,14 @@ class Employee:
 	def no_leaves(self):
 		return self.name + '=' + str(self.leaves)
 	
-aalam = Employee("Rohan","Singh",444)
-rohan = Employee("AAlam","Rana",555)
+aalam = Employee("AAlam","Singh",444)
+rohan = Employee("Rohan","Rana",555)
 
 print(aalam.no_leaves())
+print(rohan.no_leaves())
+
+print(rohan.__dict__) # To check instance variable of rohan instance
+print(aalam.__dict__) # To check instance variable of Aalam instance
 
 #Employee.leaves = 20
 
