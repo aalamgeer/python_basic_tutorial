@@ -5,7 +5,7 @@ class Employee:
 		self.name = aname
 		self.lname = alname
 		self.salary = asalary
-		self.leaves = 20  # If this variable set no_leaves method pick this otherwise class variable using (leaves)
+		self.leaves = 20  # If this variable set, no_leaves method pick this, otherwise use leaves class variable.
 		
 	def no_leaves(self):
 		return self.name + '=' + str(self.leaves)
