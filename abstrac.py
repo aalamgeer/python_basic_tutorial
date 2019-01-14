@@ -6,7 +6,7 @@ class Employee:
 		self.salary = salary
 		self.work = work
 		
-#Abstraction is concept of collection of many task into one task, And to hide the information from user
+#Abstraction is concept of collection of many task into one task, And comman task perform methods declare in abstrct class
 		
 aalam = Employee("Aalam", 1000, "Engineer")
 
