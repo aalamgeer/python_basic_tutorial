@@ -12,8 +12,8 @@ class Employee:
 class student(Employee):
 	
 	def __init__(self):
-		print "This is student class"
-		super.__init__("Aalm",1452,"Engineer")
+		#print "This is student class"
+		super().__init__("Aalm",1452,"Engineer")
 		
 		
 st = student()
