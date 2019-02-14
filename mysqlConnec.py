@@ -13,7 +13,7 @@ for x in mycursor:
 	print(x)
 
 	
-#------------------------------- Fetch result -------------
+#------------------------------- Fetch all result -------------
 
 query = ("SELECT * FROM user_table")
 mycursor = mydb.cursor()
@@ -21,3 +21,11 @@ mycursor.execute(query)
 allresult = mycursor.fetchall()
 for a in allresult:
 	print(a)
+
+#------------------------------- Fetch single result -------------
+
+query = ("SELECT * FROM user_table")
+mycursor = mydb.cursor()
+mycursor.execute(query)
+oneresult = mycursor.fetchone()
+print(oneresult)
