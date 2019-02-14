@@ -7,4 +7,7 @@ mydb = mysql.connector.connect(
 print(mydb)
 
 mycursor = mydb.cursor()
-mycursor.execute("CREATE DATABASE python_with_mysql")
+mycursor.execute("SHOW DATABASES")
+
+for x in mycursor:
+	print(x)
