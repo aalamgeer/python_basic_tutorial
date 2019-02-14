@@ -5,3 +5,6 @@ mydb = mysql.connector.connect(
 	passwd = "mynd_helpdesk"
 )
 print(mydb)
+
+mycursor = mydb.cursor()
+mycursor.execute("CREATE DATABASE python_with_mysql")
