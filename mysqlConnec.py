@@ -11,3 +11,13 @@ mycursor.execute("SHOW DATABASES")
 
 for x in mycursor:
 	print(x)
+
+	
+#------------------------------- Fetch result -------------
+
+query = ("SELECT * FROM user_table")
+mycursor = mydb.cursor()
+mycursor.execute(query)
+allresult = mycursor.fetchall()
+for a in allresult:
+	print(a)
