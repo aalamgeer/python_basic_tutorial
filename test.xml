@@ -1,8 +1,7 @@
-<?xml version="1.0"?>
 <collection>
     <genre category="Action">
         <decade years="1980s">
-            <movie favorite="True" title="Indiana Jones: The raiders of the lost Ark">
+            <movie favorite="True" title="Back To The Future Aalam Geer Rana">
                 <format multiple="No">DVD</format>
                 <year>1981</year>
                 <rating>PG</rating>
@@ -12,13 +11,13 @@
                 Covenant before the Nazis.'
                 </description>
             </movie>
-               <movie favorite="True" title="THE KARATE KID">
+           <movie favorite="True" title="THE KARATE KID">
                <format multiple="Yes">DVD,Online</format>
                <year>1984</year>
                <rating>PG</rating>
                <description>None provided.</description>
             </movie>
-            <movie favorite="False" title="Back 2 the Future">
+            <movie favorite="False" title="Back To The Future">
                <format multiple="False">Blu-ray</format>
                <year>1985</year>
                <rating>PG</rating>
