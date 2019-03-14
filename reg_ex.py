@@ -30,3 +30,6 @@ print(match)
 match = re.search(r'Co\de\sis\s\d\d\d%\slife','Co9e is 100% life').group()
 print(match)
 
+# ^ use for start with any character start with
+match = re.search(r'^Eat', 'Eat here').group()
+print(match)
