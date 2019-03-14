@@ -18,4 +18,12 @@ print (match)
 match = re.search(r'C\Wke', 'C@ke').group()
 print(match)
 
+# \s use to matches a single whitespace in string
+match = re.search('I\sam\sa\sboy', 'I am a boy').group()
+print(match)
+
+# \t use to matches any tab in string
+match = re.search(r'are\tsame', 'are  same').group()
+print(match)
+
 
