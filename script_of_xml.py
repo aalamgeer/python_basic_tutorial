@@ -12,9 +12,9 @@ def change_xml(path,file_find):
             root = tree.getroot()
             #print(root)
             #print(ET.tostring(root, encoding="utf-8").decode('utf-8'))
+            b2tf = root.find("./genre/decade/movie[@title]")  # for first title of file, Give title='Back to future' for specific title
             for child in root.iter('movie'):
                 print(child.attrib)
-            b2tf = root.find("./genre/decade/movie[@title]")  # for first title of file, Give title='Back to future' for specific title
             print(type(b2tf))
             b2tf.attrib["title"] = "Back To The Future Aalam Geer Rana"
             print(b2tf.attrib)
