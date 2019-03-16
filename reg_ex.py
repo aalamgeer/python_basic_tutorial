@@ -37,3 +37,9 @@ print(match)
 # $ use for the ends with any charater
 match = re.search(r'Aalam Geer Rana$', 'Aalam Geer Rana').group()
 print(match)
+
+#[] use to set range [a-z0-9]
+match = re.search(r'[a-z0-9]','4s').group()
+print(match)
+
+#
