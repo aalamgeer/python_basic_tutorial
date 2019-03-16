@@ -33,3 +33,7 @@ print(match)
 # ^ use for start with any character start with
 match = re.search(r'^Eat', 'Eat here').group()
 print(match)
+
+# $ use for the ends with any charater
+match = re.search(r'Aalam Geer Rana$', 'Aalam Geer Rana').group()
+print(match)
