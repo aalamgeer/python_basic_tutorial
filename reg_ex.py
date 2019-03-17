@@ -45,3 +45,8 @@ print(match)
 # \A match only at the strting of the string
 match = re.search(r'\A[A-D]ookie', 'Cookie').group()
 print(match)
+
+# Repetations ############################
+# + operator check one or more repete charaters toits left side
+match = re.search(r'Co+kie', 'Cooooookie').group()
+print(match)
