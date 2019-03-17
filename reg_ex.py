@@ -47,6 +47,10 @@ match = re.search(r'\A[A-D]ookie', 'Cookie').group()
 print(match)
 
 # Repetations ############################
-# + operator check one or more repete charaters toits left side
+# + operator check one or more repete charaters to its left side
 match = re.search(r'Co+kie', 'Cooooookie').group()
+print(match)
+
+# * Operator check zero or one repeat charater to its left
+match = re.search(r'Co*kie','Ckie').group()
 print(match)
