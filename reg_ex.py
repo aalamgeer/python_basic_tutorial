@@ -54,3 +54,13 @@ print(match)
 # * Operator check zero or one repeat charater to its left
 match = re.search(r'Co*kie','Ckie').group()
 print(match)
+
+# {2} sequence repeat exactly two times
+# {1,5} A sequence repeat exactly minimum one time maximun 5 times
+
+# In below code we check a sequence of digit sould have minimum 9 digit and maximum 10 digit
+match = re.search(r'\d{9}', '987654321').group()
+print(match)
+
+match = re.search(r'\d{9,10}', '0987654321').group()
+print(match)
