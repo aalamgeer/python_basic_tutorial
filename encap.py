@@ -11,3 +11,4 @@ class Employee:
 		
 obj = Employee
 obj.sell
+obj.setprice(100)
