@@ -7,3 +7,6 @@ while b < 10:
 wightpound = int(input('Enter wight in pounds: '))
 kg = wightpound/2.2046
 print(kg, 'Kilograms')
+
+name = "AALMGEER"
+print(name[1:-1])
