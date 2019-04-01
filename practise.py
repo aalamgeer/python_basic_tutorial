@@ -4,3 +4,10 @@ for itm in number:
 	for n in range(itm):
 		print('*', end='')
 	print()
+	
+# Find duplicate number in list
+unique = []
+for n in number:
+	if n not in unique:
+		unique.append(n)
+print(unique)
