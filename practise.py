@@ -11,3 +11,10 @@ for n in number:
 	if n not in unique:
 		unique.append(n)
 print(unique)
+
+#find maximum number from list
+max =0
+for n in number:
+	if n > max:
+		max = n
+print(max)
