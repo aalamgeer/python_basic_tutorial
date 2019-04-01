@@ -24,3 +24,7 @@ number.sort()
 print(number)
 number.reverse()
 print(number)
+
+#Take numeric and convert them alphabat.
+number = int(input("Phone "))
+print(number)
