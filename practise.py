@@ -18,3 +18,9 @@ for n in number:
 	if n > max:
 		max = n
 print(max)
+
+#Reverse the list
+number.sort()
+print(number)
+number.reverse()
+print(number)
