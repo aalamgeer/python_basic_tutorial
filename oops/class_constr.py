@@ -23,3 +23,5 @@ class person:
 me = person("Aalam Geer Rana")
 print(me.name)
 print(me.talk())
+you = person("I am your alisha")
+print(you.talk())
