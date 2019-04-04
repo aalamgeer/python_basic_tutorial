@@ -11,3 +11,15 @@ class Point:
 
 
 obj1 = Point(10,20)
+
+#Exercise of person class
+class person:
+	def __init__(self,name):
+		self.name = name
+		
+	def talk(self):
+		return (f"Hi i am {self.name}")
+		
+me = person("Aalam Geer Rana")
+print(me.name)
+print(me.talk())
