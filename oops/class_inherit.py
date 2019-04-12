@@ -1,14 +1,14 @@
 class activity:
 	def walk(self):
 		print("walk")
-		
-class dog(activity):
 	def color(self, clr):
 		print(f"{clr} This is dog color")
+		
+class dog(activity):
+	pass
 	
 class cat(activity):
-	def color(self, clr):
-		print(f"{clr} This is cat's color")
+	pass
 	
 dog1 = dog()
 dog1.walk()
