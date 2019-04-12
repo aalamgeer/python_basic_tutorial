@@ -3,10 +3,12 @@ class activity:
 		print("walk")
 		
 class dog(activity):
-	pass
+	def color(self, clr):
+		print("%s This is dog color", clr)
 	
 class cat(activity):
-	pass
+	def color(self, clr):
+		print("%s This is cat's color",clr)
 	
 dog1 = dog()
 dog1.walk()
