@@ -4,6 +4,7 @@ class activity:
 	def color(self, clr):
 		print(f"{clr} This is dog color")
 		
+		
 class dog(activity):
 	pass
 	
